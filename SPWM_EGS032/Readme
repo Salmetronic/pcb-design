@@ -1,0 +1,61 @@
+<p align="center">
+  <img src="assets/logo.png" width="160" alt="Salmetronic Logo">
+</p>
+
+<h<h1 align="center">EGS032 Fiber-Optic Gate Driver Interface</h1>
+
+<p align="center">
+  <b>Placa adaptadora de control y aislamiento por fibra óptica para variadores de frecuencia e inversores solares.</b>
+</p>
+
+<p align="center">
+  <img src="assets/imagen-3D.png" width="750" alt="Render 3D de la placa PCB - Salmetronic Ver 1.0">
+</p>
+
+---
+
+## ⚡ Descripción del Proyecto
+
+Esta placa de circuito impreso (PCB) de desarrollo propio ha sido diseñada para integrar un módulo controlador SPWM comercial **EGS032** junto con un conversor DC-DC aislado. Su función principal es procesar, adaptar y aislar las señales de control para alimentar una **interfaz de salida por fibra óptica**, orientada al disparo de compuertas (*gate driving*) en etapas de potencia de **variadores de frecuencia (VFDs)** e **inversores solares**.
+
+El diseño prioriza la inmunidad total frente al ruido electromagnético severo (EMI) típico de los entornos de conmutación de alta potencia, garantizando una transmisión de pulsos limpia y segura hacia los módulos de potencia remotos (IGBTs / MOSFETs).
+
+---
+
+## 🚀 Características Principales
+
+* **Control SPWM Optimizado:** Área de inserción y zócalos dedicados para el módulo controlador **EGS032**.
+* **Alimentación Aislada:** Integración de módulo conversor DC-DC compacto para alimentar de manera independiente la circuitería lógica y los drivers de salida.
+* **Interfaz Óptica de Alta Velocidad:** Canales de transmisión por fibra óptica que proporcionan un aislamiento galvánico absoluto entre el circuito de control de baja tensión y la circuitería de potencia.
+* **Acondicionamiento de Señal:** Etapa de búferes y adaptación de pulsos con componentes discretos y circuitos integrados dedicados para asegurar flancos rápidos y evitar falsos disparos.
+* **Robustez Industrial:** Patrón de diseño enfocado en la minimización de lazos de masa y protección contra transitorios en banco de pruebas de taller.
+
+---
+
+## 📋 Especificaciones Técnicas
+
+* **Versión de Hardware:** Ver 1.0
+* **Controlador Principal:** Módulo EGS032 (EG8030/EG8032)
+* **Medio de Transmisión:** Enlaces ópticos dedicados para fibra polimérica/industrial.
+* **Aplicaciones:** 
+  * Bancos de pruebas y reparación de variadores de frecuencia (VFD).
+  * Tarjetas de disparo para inversores de potencia y sistemas fotovoltaicos.
+
+---
+
+## 📂 Estructura del Repositorio
+
+Para mantener un flujo de trabajo ordenado bajo los principios de organización de taller, los archivos se estructuran de la siguiente forma:
+
+```text
+pcb-design/
+│
+├── egs032-fiber-interface/         # Carpeta del proyecto actual
+│   ├── assets/                     # Recursos visuales (Logo y Renders 3D)
+│   │   ├── logo.png
+│   │   └── imagen-3D.png
+│   ├── schematic/                  # Archivos de esquema de EasyEDA (.esch)
+│   ├── pcb/                        # Archivos de diseño de placa (.epcb)
+│   └── README.md                   # Documentación específica de la placa
+│
+└── .gitignore                      # Archivos temporales excluidos del control de versiones
