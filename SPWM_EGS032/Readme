@@ -1,0 +1,36 @@
+# 🔌 EGS032 Fiber-Optic Gate Driver Interface
+
+Placa de circuito impreso (PCB) de desarrollo propio diseñada para integrar un módulo controlador SPWM **EGS032** junto con un conversor DC-DC aislado, convirtiendo y adaptando sus señales de control hacia una **interfaz de salida por fibra óptica**. 
+
+Este sistema está orientado al disparo y control de compuertas (gate driving) en tarjetas de potencia de **variadores de frecuencia (VFDs)** e **inversores solares**, proporcionando un aislamiento galvánico robusto y una inmunidad total frente al ruido electromagnético (EMI) típico de entornos industriales de alta potencia.
+
+---
+
+## 🚀 Características Principales
+
+* **Control SPWM Integrado:** Zócalo o área de inserción optimizada para el módulo comercial **EGS032**.
+* **Alimentación Aislada:** Alojamiento para módulo conversor DC-DC compacto encargado de alimentar la lógica de control y los buffers de salida.
+* **Interfaz de Disparo por Fibra Óptica:** Canales de salida equipados con transmisores ópticos de alta velocidad para el envío de pulsos de disparo a placas de potencia remotas con IGBTs o MOSFETs.
+* **Alta Inmunidad EMI:** Diseñado bajo principios de apantallamiento y separación de tierras para operar de forma fiable en entornos industriales severos y bancos de prueba de variadores.
+* **Formato Compacto:** Dimensiones ajustadas para facilitar su integración en chasis de prueba o gabinetes de control de taller.
+
+---
+
+## 🛠️ Arquitectura y Funcionamiento
+
+1. **Etapa de Control (EGS032):** Genera las señales SPWM de alta precisión para el control de la topología de potencia.
+2. **Fuente Auxiliar (DC-DC):** Proporciona los rieles de tensión necesarios aislados de la etapa de alta potencia.
+3. **Buffer y Transmisores Ópticos:** Convierten las señales lógicas de los pines de disparo en pulsos de luz, garantizando aislamiento galvánico absoluto entre el controlador y los drivers de los IGBTs/MOSFETs principales.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```text
+egs032-fiber-interface/
+│
+├── schematic/                  # Archivos de esquema de EasyEDA Pro (.esch)
+├── pcb/                        # Archivos de diseño de placa de circuito impreso (.epcb)
+├── docs/                       # Hojas de datos (Datasheets) del EGS032 y módulo DC-DC
+├── README.md                   # Documentación técnica del proyecto
+└── .gitignore                  # Exclusión de archivos temporales y de fabricación
