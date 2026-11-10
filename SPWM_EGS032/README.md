@@ -114,7 +114,9 @@ Este diseño está pensado para trabajar en entornos de **potencia** y **alta te
 
 Este proyecto se distribuye bajo la **CERN Open Hardware Licence v2 – Strongly Reciprocal (CERN-OHL-S v2)**. Consulta el texto completo en [LICENSE](../LICENSE).
 
-Copyright © 2026 **Salmetronic**.
+## 🛡️ Propiedad intelectual y marca
+
+© 2026 **Salmetronic**. El nombre comercial «Salmetronic» y su logotipo son marcas protegidas y **no** están cubiertos por la licencia de hardware. Queda prohibido su uso para la comercialización o distribución de productos de terceros sin autorización previa por escrito.
 
 ## 👤 Autor
 
