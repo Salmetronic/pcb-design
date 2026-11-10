@@ -11,7 +11,7 @@
 <p align="center">
   <img alt="Versión de hardware" src="https://img.shields.io/badge/hardware-Ver%201.0-informational">
   <img alt="Estado" src="https://img.shields.io/badge/estado-prototipo%20funcional-success">
-  <img alt="Licencia" src="https://img.shields.io/badge/licencia-CERN--OHL--S%20v2-blue">
+  <img alt="Licencia" src="https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-blue">
 </p>
 
 <p align="center">
@@ -88,7 +88,7 @@ El esquemático completo está disponible en **[docs/esquemas.pdf](docs/esquemas
 pcb-design/
 ├── .gitattributes               # Tratamiento de archivos binarios
 ├── .gitignore                   # Archivos temporales y fuentes no publicadas
-├── LICENSE                      # Licencia CERN-OHL-S v2
+├── LICENSE                      # Licencia CC BY-NC-SA 4.0
 ├── README.md                    # Índice del repositorio
 └── SPWM_EGS032/
     ├── README.md                # Documentación de esta placa
@@ -112,11 +112,11 @@ Este diseño está pensado para trabajar en entornos de **potencia** y **alta te
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la **CERN Open Hardware Licence v2 – Strongly Reciprocal (CERN-OHL-S v2)**. Consulta el texto completo en [LICENSE](../LICENSE).
+La documentación y los recursos gráficos de este proyecto se publican bajo la licencia **Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)**. Consulta el texto completo en [LICENSE](../LICENSE).
 
 ## 🛡️ Propiedad intelectual y marca
 
-© 2026 **Salmetronic**. El nombre comercial «Salmetronic» y su logotipo son marcas protegidas y **no** están cubiertos por la licencia de hardware. Queda prohibido su uso para la comercialización o distribución de productos de terceros sin autorización previa por escrito.
+© 2026 **Salmetronic**. El nombre comercial «Salmetronic» y su logotipo son marcas protegidas y **no** están cubiertas por la licencia de contenido. Queda prohibido su uso para la comercialización o distribución de productos de terceros sin autorización previa por escrito.
 
 ## 👤 Autor
 
