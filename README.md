@@ -25,6 +25,7 @@ pcb-design/
 ├── .gitattributes            # Tratamiento de archivos binarios
 ├── .gitignore                # Archivos temporales y fuentes no publicadas
 ├── LICENSE                   # Licencia CC BY-NC-SA 4.0
+├── CHANGELOG.md              # Historial de versiones
 ├── README.md                 # Índice del repositorio
 └── SPWM_EGS032/
     ├── README.md             # Documentación de la placa
