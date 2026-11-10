@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.png" width="160" alt="Salmetronic Logo">
+  <img src="assets/180pixel.png" width="160" alt="Salmetronic Logo">
 </p>
 
-<h<h1 align="center">EGS032 Fiber-Optic Gate Driver Interface</h1>
+<h1 align="center">EGS032 Fiber-Optic Gate Driver Interface</h1>
 
 <p align="center">
   <b>Placa adaptadora de control y aislamiento por fibra óptica para variadores de frecuencia e inversores solares.</b>
@@ -52,7 +52,7 @@ pcb-design/
 │
 ├── egs032-fiber-interface/         # Carpeta del proyecto actual
 │   ├── assets/                     # Recursos visuales (Logo y Renders 3D)
-│   │   ├── logo.png
+│   │   ├── 180pixel.png
 │   │   └── imagen-3D.png
 │   ├── schematic/                  # Archivos de esquema de EasyEDA (.esch)
 │   ├── pcb/                        # Archivos de diseño de placa (.epcb)
