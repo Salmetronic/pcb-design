@@ -1,0 +1,10 @@
+# Normaliza finales de línea de los archivos de texto
+* text=auto eol=lf
+
+# Archivos binarios: sin conversión de finales de línea
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.eprj2 binary
