@@ -6,6 +6,14 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 
 ## [Unreleased]
 
+### Añadido
+
+- Vista superior 3D (`render-3D-top.png`) en la galería del proyecto SPWM_EGS032.
+
+### Cambiado
+
+- Actualizado el render 3D principal (`imagen-3D.png`) de la placa SPWM_EGS032 con los componentes y conectores finales montados.
+
 ## [1.0] - 2026-11-10
 
 ### Añadido

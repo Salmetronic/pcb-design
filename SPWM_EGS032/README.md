@@ -70,7 +70,11 @@ El esquemático completo está disponible en **[docs/esquemas.pdf](docs/esquemas
 
 ## 🖼️ Galería de la PCB
 
-| Vista superior | Vista inferior |
+| Render 3D (perspectiva) | Render 3D (vista superior) |
+| :---: | :---: |
+| ![Render 3D perspectiva](assets/imagen-3D.png) | ![Render 3D superior](assets/render-3D-top.png) |
+
+| Vista superior (capas) | Vista inferior |
 | :---: | :---: |
 | ![Vista superior](assets/top.png) | ![Vista inferior](assets/bottom.png) |
 
@@ -95,6 +99,7 @@ pcb-design/
     ├── assets/                  # Logo, renders 3D y capturas de la PCB
     │   ├── 180pixel.png
     │   ├── imagen-3D.png
+    │   ├── render-3D-top.png
     │   ├── top.png
     │   ├── bottom.png
     │   ├── interface.png
