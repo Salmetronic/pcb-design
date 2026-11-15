@@ -26,7 +26,7 @@
 - [Características principales](#-características-principales)
 - [Especificaciones técnicas](#-especificaciones-técnicas)
 - [Esquemático](#-esquemático)
-- [Galería de la PCB](#-galería-de-la-pcb)
+- [Galería y esquemático](#-galería-y-esquemático)
 - [Estructura del repositorio](#-estructura-del-repositorio)
 - [Seguridad](#-seguridad)
 - [Licencia](#-licencia)
@@ -68,7 +68,7 @@ El esquemático completo está disponible en **[docs/esquemas.pdf](docs/esquemas
 2. **Out_FB** — etapa de salida y transceptores de fibra óptica HFBR-1521Z.
 3. **Power** — distribución de alimentación y conversor DC-DC aislado.
 
-## 🖼️ Galería de la PCB
+## 🖼️ Galería y esquemático
 
 | Render 3D (perspectiva) | Render 3D (vista superior) |
 | :---: | :---: |
@@ -78,12 +78,12 @@ El esquemático completo está disponible en **[docs/esquemas.pdf](docs/esquemas
 | :---: | :---: |
 | ![Vista superior](assets/top.png) | ![Vista inferior](assets/bottom.png) |
 
-| Interfaz DSP/LCD | Alimentación |
+| Esquemático — Interface | Esquemático — Alimentación |
 | :---: | :---: |
-| ![Interfaz](assets/interface.png) | ![Alimentación](assets/power.png) |
+| ![Interface](assets/interface.png) | ![Alimentación](assets/power.png) |
 
 <p align="center">
-  <img src="assets/salida.png" width="620" alt="Etapa de salida por fibra óptica">
+  <img src="assets/salida.png" width="620" alt="Esquemático de la etapa de salida por fibra óptica">
 </p>
 
 ## 📂 Estructura del repositorio

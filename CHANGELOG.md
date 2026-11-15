@@ -9,10 +9,12 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 ### Añadido
 
 - Vista superior 3D (`render-3D-top.png`) en la galería del proyecto SPWM_EGS032.
+- Capturas del esquemático por hoja: *Interface*, *Alimentación* y *Salida*.
 
 ### Cambiado
 
 - Actualizado el render 3D principal (`imagen-3D.png`) de la placa SPWM_EGS032 con los componentes y conectores finales montados.
+- Actualizado el esquemático completo (`docs/esquemas.pdf`) a la revisión 1.0 del 2026-11-15.
 
 ## [1.0] - 2026-11-10
 
