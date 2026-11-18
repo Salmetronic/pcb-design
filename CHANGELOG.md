@@ -8,6 +8,8 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 
 ### Añadido
 
+- Nuevo proyecto **DC-DC_Pot · Conversor reductor ajustable con LM2576HV**: README con descripción, especificaciones, cálculo de la tensión de salida, BOM, galería y esquemático en PDF (`docs/SCH_DC_DC_LM2576_2026-11-18.pdf`).
+- Entrada de DC-DC_Pot en la tabla de diseños y en la estructura del README raíz.
 - Vista superior 3D (`render-3D-top.png`) en la galería del proyecto SPWM_EGS032.
 - Capturas del esquemático por hoja: *Interface*, *Alimentación* y *Salida*.
 
