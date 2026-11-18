@@ -120,7 +120,7 @@ Resumen del circuito:
 
 | Render 3D | Vista superior (PCB) |
 | :---: | :---: |
-| ![Render 3D](assets/Captura%20de%20pantalla%202026-11-18%20190457.png) | ![Vista superior del PCB](assets/Captura%20de%20pantalla%202026-11-18%20190429.png) |
+| ![Render 3D](assets/Captura%20de%20pantalla%202026-11-18%20190457.png) | ![Vista superior del PCB](assets/Captura%20de%20pantalla%202026-11-18%20192120.png) |
 
 ## 📂 Estructura del proyecto
 
@@ -128,7 +128,7 @@ Resumen del circuito:
 DC-DC_Pot/
 ├── README.md                                   # Documentación de esta placa
 ├── assets/                                     # Renders y capturas de la PCB
-│   ├── Captura de pantalla 2026-11-18 190429.png   # Vista superior del PCB
+│   ├── Captura de pantalla 2026-11-18 192120.png   # Vista superior del PCB
 │   └── Captura de pantalla 2026-11-18 190457.png   # Render 3D
 └── docs/
     └── SCH_DC_DC_LM2576_2026-11-18.pdf         # Esquemático completo
